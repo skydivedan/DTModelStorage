@@ -25,9 +25,7 @@
 // THE SOFTWARE.
 
 import Foundation
-import DTModelStorage
 #if canImport(RealmSwift)
-import Realm.RLMResults
 import RealmSwift
 #else
 //swiftlint:disable:next line_length
